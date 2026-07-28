@@ -73,6 +73,12 @@
 # - Each feature MUST be implemented in its own function (see scaffold below).
 # - Handle invalid menu choices gracefully (print an error, do not crash).
 #
+
+#
+# =============================================================================
+# YOUR CODE BELOW — remove the # symbols from the scaffold and fill it in
+# =============================================================================
+
 def add_task(tasks):
     task = input("Enter task: ")
     tasks.append(task)
@@ -124,8 +130,3 @@ while running:
         running = False
     else:
         print("Error: Invalid choice. Please enter 1-4.")
-#
-# =============================================================================
-# YOUR CODE BELOW — remove the # symbols from the scaffold and fill it in
-# =============================================================================
-
